@@ -204,3 +204,52 @@ nav .menu a {
   line-height: 24px;
   opacity: 60%;
 }
+
+.episode-section {
+  width: 100%;
+  height: 928px;
+  background-color: 
+  display: flex;
+  padding: 120px 250px;
+  background-color: #1A0B2E;
+}
+
+.episode-section-heading{
+    font-weight: 700;
+    font-size: 48px;
+    color:#ffffff;
+    text-align: center;
+}
+.episode-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.episode-section-sub-heading{
+    font-weight: 700;
+    font-size: 24px;
+    color:#ffffff;
+    margin-top: 20px;
+}
+.episode-section-para{
+    font-weight: 400;
+    font-size: 16px;
+    color:#ffffff;
+    margin-top: 12px;
+    line-height: 24px;
+}
+.episode-section-last-para{
+    font-weight: 400;
+    font-size: 16px;
+    color:#00ff88;
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.episode-card{
+    width:380px;
+    height: 440px;
+    background-color: #250D44;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 30px;
+}
