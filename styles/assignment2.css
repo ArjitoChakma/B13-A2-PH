@@ -123,3 +123,84 @@ nav .menu a {
   font-weight: 400;
   color: #ffffff;
 }
+
+.choose-section {
+  width: 100%;
+  height: 1121px;
+  text-align: center;
+  padding: 120px 250px;
+  background-color: #230e3d;
+  opacity: 100%;
+}
+
+.choose-section-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+  line-height: auto;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.choose-section-content {
+  width: 1200px;
+  height: 783px;
+  gap: 30px;
+  opacity: 100%;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  text-align: left;
+}
+
+.first-layout {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #351165;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.second-layout {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #351165;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.third-layout {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #351165;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.fourth-layout {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #351165;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.fifth-layout {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #351165;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.choose-section-content-heading {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: auto;
+}
+
+.choose-section-content-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 60%;
+}
